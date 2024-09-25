@@ -33,6 +33,9 @@ body{
     background-color: white;
     box-sizing: border-box;
 }
+/* .box-style:hover{
+    background-color: #000000;
+} */
 p{
     font-size: 24px;
     font-weight:500px;

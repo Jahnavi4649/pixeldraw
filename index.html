@@ -9,9 +9,16 @@
 </head>
 <body>
     <div class="options-section">
-        <div id="grid-size">
+        <div id="grid-size" class="options">
             <p>Select  number of squares per side : <span id="grid-number"> 10</span></p>
             <input type="range" id="grid-size-value" value="10" min="6" max="100">
+        </div>
+        <div id="color-picker" class="options">
+            <p>Select color : </p>
+            <input type="color" id="color-selected" value="#000000" name="color-picker">
+        </div>
+        <div class="options">
+            <button id="clear-button">CLEAR SCREEN</button>
         </div>
     </div>
     <div class="sketch-pad">
