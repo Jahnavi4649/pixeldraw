@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #BB9AB1;
+}
+.options-section{
+    background-color: #BB9AB1;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sketch-pad{
+    background-color: #987D9A;
+    width: 70%;
+    text-align: center;
+}
+.drawing-area{
+    width:640px;
+    height:640px;
+    background: white;
+    margin:5em auto;
+}
+p{
+    font-size: 24px;
+    font-weight:500px;
+}
