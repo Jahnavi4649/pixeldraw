@@ -22,8 +22,16 @@ body{
 .drawing-area{
     width:640px;
     height:640px;
-    background: white;
+    background-color: lightgrey;
     margin:5em auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box-style{
+    border: 1px solid lightgray;
+    background-color: white;
+    box-sizing: border-box;
 }
 p{
     font-size: 24px;
