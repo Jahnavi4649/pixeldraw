@@ -81,18 +81,11 @@ p{
     border-radius: 8px;
     box-shadow:1px 1px 2px #000000 ;
     cursor:pointer;
-    background-color: #B17457;
+    background-color: #4A4947;
     font-size:16px;
     font-weight: 600;
     color:#EEEEEE;
 }
 #clear-button:hover{
-    background-color: #6C3428;
+    background-color: #222831;
 }
-/* .footer{
-    background-color: #EECEB9;
-    width:100%;
-    text-align: center;
-    font-size:18px;
-    padding:12px 0;
-} */
